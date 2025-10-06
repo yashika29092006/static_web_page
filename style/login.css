@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: cursive;
+  background: #fafafa;
+}
+a{
+    text-decoration: none;
+}
+/* Navbar container */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+/* Logo text */
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color:white; 
+}
+.icons {
+    display: flex;
+    gap: 30px;
+}
+.icons i {
+    font-size: 22px;
+    cursor: pointer;
+    color:white;
+    text-decoration: none;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  background: #fff;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+}
+.profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #ddd;
+}
+.profile h3 {
+  margin: 10px 0 5px;
+}
+.profile p {
+  color: #555;
+  font-size: 14px;
+}
+.menu {
+  margin-top: 20px;
+}
+.menu a {
+  display: block;
+  padding: 12px 15px;
+  color: #333;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px 0;
+}
+.menu a:hover,
+.menu a.active {
+  background: #f3f3f3;
+}
+
+/* Main Content */
+.main {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.no-orders {
+  text-align: center;
+  color: #555;
+}
+.no-orders h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.no-orders p {
+  font-size: 14px;
+  color: #777;
+}
+.order {
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+}
+.button {
+  display: inline-block;
+  background:  #880526;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background:  #c10836;
+}
+#foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+footer h1,h3 {
+    margin-left: 50px;
+}
+.footer_icons{
+    display: flex;
+    gap:30px;
+    margin-left: 50px;
+}
+.footer_icons i{
+    color:rgb(65, 35, 35);
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+footer h4{
+    margin-left: 50px;
+}
+#login{
+    margin-top: 300px;
+    margin-left: 600px;
+    font-size: 35px;
+}

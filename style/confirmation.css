@@ -1,0 +1,85 @@
+html{
+    min-height: 100vh;
+}
+body {
+    margin: 0;
+    font-family: cursive;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+header{
+    background: linear-gradient(to right,rgb(16, 94, 51),rgb(25, 134, 74));
+}
+a{
+    text-decoration: none;
+}
+/* Navbar container */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+/* Logo text */
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color:white; 
+}
+.icons {
+    display: flex;
+    gap: 30px;
+}
+.icons i {
+    font-size: 22px;
+    cursor: pointer;
+    color:white;
+    text-decoration: none;
+}
+.order {
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+}
+.button {
+  display: inline-block;
+  background: green;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: darkgreen;
+}
+#foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+footer h1,h3 {
+    margin-left: 50px;
+}
+.footer_icons{
+    display: flex;
+    gap:30px;
+    margin-left: 50px;
+}
+.footer_icons i{
+    color:rgb(65, 35, 35);
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+footer h4{
+    margin-left: 50px;
+}
+#login{
+    margin-top: 300px;
+    margin-left: 600px;
+    font-size: 35px;
+}
