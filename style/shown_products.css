@@ -97,7 +97,7 @@ button:hover {
 
 /* Info Section */
 .info {
-  background-color: #fafafa;
+  background-color:white;/*Color changed*/
   border-radius: 4px;
   border: 1px solid black;
   text-align: start;
